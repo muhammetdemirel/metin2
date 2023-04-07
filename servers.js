@@ -105,7 +105,12 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  if (window.location.pathname == '/') {
+  let serverListPages = ['/', '/t/', '/groups', '/following']
+
+  if (
+    serverListPages.includes(window.location.pathname) ||
+    serverListPages.includes(window.location.pathname.substring(0, 3))
+  ) {
     getMetin2ServerList()
 
     setInterval(function () {
