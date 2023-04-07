@@ -149,12 +149,48 @@
       "location": "🇹🇷"
     },
     {
+      "name": "Mazi2",
+      "url": "https://mazi2.com",
+      "image": "https://cdn.discordapp.com/icons/765299205152571402/c1a9f2745b2105c3266423a00cd22e76.webp?size=32",
+      "date": "2023-04-14T21:00:00",
+      "level": "1-99",
+      "difficulty": "Old School",
+      "location": "🇹🇷"
+    },
+    {
       "name": "MaxMt2",
       "url": "https://maxmt2.com",
       "image": "https://cdn.discordapp.com/icons/1085560515163586681/70894ad57ad2a9adc2b477a7655c197b.webp?size=32",
       "date": "2023-04-14T21:00:00",
       "level": "1-99",
       "difficulty": "Orta Emek",
+      "location": "🇹🇷"
+    },
+    {
+      "name": "Nemeria2",
+      "url": "https://nemeria2.com",
+      "image": "https://cdn.discordapp.com/icons/924043463555698708/61d8fdd04378cbbd4eaa0754bbc97ab1.webp?size=32",
+      "date": "2023-04-14T21:00:00",
+      "level": "104-105",
+      "difficulty": "VS",
+      "location": "🇹🇷"
+    },
+    {
+      "name": "CixMt2",
+      "url": "https://cixmt2.online",
+      "image": "https://cdn.discordapp.com/icons/672778539983962114/744bc7a84c872f1e65d0c1fa89601f73.webp?size=32",
+      "date": "2023-04-14T21:00:00",
+      "level": "104-105",
+      "difficulty": "VS",
+      "location": "🇹🇷"
+    },
+    {
+      "name": "Rega2",
+      "url": "https://rega2.com",
+      "image": "https://cdn.discordapp.com/icons/1045079405325721610/a_ad27a0348472960dc0f34660ed6ec600.gif?size=32",
+      "date": "2023-04-14T21:00:00",
+      "level": "104-105",
+      "difficulty": "VS",
       "location": "🇹🇷"
     }
   ]
