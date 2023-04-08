@@ -115,7 +115,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function runServerList() {
-    let serverListPages = ['/', '/t/', '/groups', '/following']
+    let serverListPages = ['/', '/t/', '/following']
 
     if (
       serverListPages.includes(window.location.pathname) ||
@@ -134,6 +134,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let oldPathname = window.location.pathname
   setInterval(function () {
     if (window.location.pathname !== oldPathname) {
+      oldPathname = window.location.pathname
       runServerList()
     }
   }, 1000 * 1)
