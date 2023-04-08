@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
       template += `
           <div class="Afrux-TopPostersWidget-users-item">
             <div class="Afrux-TopPostersWidget-users-item-avatar">
-              <a href="${item.url}/?utm=www.metin2.org.tr" title="${item.name} - ${item.level} - ${item.difficulty} - ${item.date}" target="_blank">
+              <a href="${item.url}/?utm_source=metin2.org.tr&utm_medium=toplist&utm_campaign=toplist" title="${item.name} - ${item.level} - ${item.difficulty} - ${item.date}" target="_blank">
                 <img
                   class="Avatar"
                   loading="lazy"
@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 class="Afrux-TopPostersWidget-users-item-name"
                 style="font-weight: 500"
               >
-                <a href="${item.url}/?utm=www.metin2.org.tr" title="${item.name} - ${item.level} - ${item.difficulty} - ${item.date}" target="_blank" style="color: var(--text-color); text-decoration: none; display: flex; justify-content: space-between; align-items: center;">
+                <a href="${item.url}/?utm_source=metin2.org.tr&utm_medium=toplist&utm_campaign=toplist" title="${item.name} - ${item.level} - ${item.difficulty} - ${item.date}" target="_blank" style="color: var(--text-color); text-decoration: none; display: flex; justify-content: space-between; align-items: center;">
                   ${item.name}
 
                   <span style="background: ${status}; width: 10px; height: 10px; border-radius: 100%;"></span>
@@ -74,6 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
     xhr.send()
 
     xhr.onload = function () {
+      let toplist = xhr.response.toplist
       let lastWeek = xhr.response.lastWeek
       let currentWeek = xhr.response.currentWeek
       let nextWeek = xhr.response.nextWeek
@@ -101,20 +102,39 @@ document.addEventListener('DOMContentLoaded', () => {
         })
       }
 
+      if (toplist.length > 0) {
+        document.getElementById('metin2-server-toplist').innerHTML =
+          templateMetin2ServerList({
+            title: 'En Popüler Sunucular',
+            items: toplist
+          })
+      }
+
       document.getElementById('metin2-server-list').innerHTML = output
     }
   }
 
-  let serverListPages = ['/', '/t/', '/groups', '/following']
+  function runServerList() {
+    let serverListPages = ['/', '/t/', '/groups', '/following']
 
-  if (
-    serverListPages.includes(window.location.pathname) ||
-    serverListPages.includes(window.location.pathname.substring(0, 3))
-  ) {
-    getMetin2ServerList()
-
-    setInterval(function () {
+    if (
+      serverListPages.includes(window.location.pathname) ||
+      serverListPages.includes(window.location.pathname.substring(0, 3))
+    ) {
       getMetin2ServerList()
-    }, 1000 * 60)
+    }
   }
+
+  runServerList()
+
+  setInterval(function () {
+    runServerList()
+  }, 1000 * 60)
+
+  let oldPathname = window.location.pathname
+  setInterval(function () {
+    if (window.location.pathname !== oldPathname) {
+      runServerList()
+    }
+  }, 1000 * 1)
 })

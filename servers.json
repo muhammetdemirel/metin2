@@ -211,5 +211,79 @@
       "difficulty": "VS",
       "location": "🇹🇷"
     }
+  ],
+  "toplist": [
+    {
+      "name": "Misali2 İstiklal",
+      "url": "https://istiklal.misali2.com",
+      "image": "https://cdn.discordapp.com/icons/594868834457092135/a_9935e7f1197e640696e4c20828c4545a.gif?size=32",
+      "date": "2023-01-01T21:00:00",
+      "level": "1-99",
+      "difficulty": "Zor",
+      "location": "🇹🇷"
+    },
+    {
+      "name": "Misali2 Vatan",
+      "url": "https://vatan.misali2.com",
+      "image": "https://cdn.discordapp.com/icons/594868834457092135/a_9935e7f1197e640696e4c20828c4545a.gif?size=32",
+      "date": "2023-01-01T21:00:00",
+      "level": "1-105",
+      "difficulty": "Orta",
+      "location": "🇹🇷"
+    },
+    {
+      "name": "Phebia",
+      "url": "https://www.phebia.global",
+      "image": "https://cdn.discordapp.com/icons/990567494819409930/760878ba0a66b7f377c91c3abc28c201.webp?size=32",
+      "date": "2023-01-01T21:00:00",
+      "level": "1-120",
+      "difficulty": "Zor",
+      "location": "🇹🇷"
+    },
+    {
+      "name": "Aeldra",
+      "url": "https://1.aeldra.to",
+      "image": "https://cdn.discordapp.com/icons/710777978149404672/a_9b20d75537eea320b106c0e971ad07b5.gif?size=32",
+      "date": "2023-01-01T21:00:00",
+      "level": "1-120",
+      "difficulty": "Orta",
+      "location": "🇹🇷"
+    },
+    {
+      "name": "Aeldra Zeta",
+      "url": "https://3.aeldra.to",
+      "image": "https://cdn.discordapp.com/icons/710777978149404672/a_9b20d75537eea320b106c0e971ad07b5.gif?size=32",
+      "date": "2023-01-01T21:00:00",
+      "level": "1-120",
+      "difficulty": "Zor",
+      "location": "🇹🇷"
+    },
+    {
+      "name": "Aeldra Zeya",
+      "url": "https://4.aeldra.to",
+      "image": "https://cdn.discordapp.com/icons/710777978149404672/a_9b20d75537eea320b106c0e971ad07b5.gif?size=32",
+      "date": "2023-01-01T21:00:00",
+      "level": "1-120",
+      "difficulty": "Zor",
+      "location": "🇹🇷"
+    },
+    {
+      "name": "Sancy",
+      "url": "https://www.sancy.to",
+      "image": "https://cdn.discordapp.com/icons/983186456807866398/a_2d96ad9d2c31551a6245d6f89fdfbbf5.gif?size=32",
+      "date": "2023-01-01T21:00:00",
+      "level": "1-150",
+      "difficulty": "Kolay",
+      "location": "🇹🇷"
+    },
+    {
+      "name": "WoM2 Global",
+      "url": "https://global.wom2.org",
+      "image": "https://cdn.discordapp.com/icons/1026501460567015444/a_08b8d672e8b28a3b8fc36f643358831a.gif?size=32",
+      "date": "2023-01-01T21:00:00",
+      "level": "1-99",
+      "difficulty": "Zor",
+      "location": "🇹🇷"
+    }
   ]
 }
