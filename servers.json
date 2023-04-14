@@ -1,80 +1,6 @@
 {
   "lastWeek": [
     {
-      "name": "Mark2023",
-      "url": "https://markmt2.com",
-      "image": "https://cdn.discordapp.com/icons/797583458033205258/654cbd47c1de4d89641d49c57bb67825.webp?size=32",
-      "date": "2023-03-31T21:00:00",
-      "level": "1-105",
-      "difficulty": "Orta Emek",
-      "location": "🇹🇷"
-    },
-    {
-      "name": "Turka2",
-      "url": "https://www.turka2.com",
-      "image": "https://cdn.discordapp.com/icons/1000453359108632728/a_745aefa6aaf8fcca01d749d3fcb3fdf9.gif?size=32",
-      "date": "2023-03-31T21:00:00",
-      "level": "1-105",
-      "difficulty": "Orta Emek",
-      "location": "🇹🇷"
-    },
-    {
-      "name": "EggHard",
-      "url": "https://egghard2.online",
-      "image": "https://cdn.discordapp.com/icons/846494025037250601/e663a4a745aee020a3382b2d2ee1a3ce.webp?size=32",
-      "date": "2023-03-31T21:00:00",
-      "level": "1-105",
-      "difficulty": "Orta Emek",
-      "location": "🇹🇷"
-    },
-    {
-      "name": "Harwek2",
-      "url": "https://harwek2.com",
-      "image": "https://cdn.discordapp.com/icons/779761713318854686/a_ea4aaddc06e250c2843edf1a2ac182e1.gif?size=32",
-      "date": "2023-03-31T21:00:00",
-      "level": "1-120",
-      "difficulty": "Orta Emek",
-      "location": "🇹🇷"
-    },
-    {
-      "name": "Aeldra Zeya",
-      "url": "https://aeldra.to",
-      "image": "https://cdn.discordapp.com/icons/710777978149404672/a_9b20d75537eea320b106c0e971ad07b5.gif?size=32",
-      "date": "2023-03-31T21:00:00",
-      "level": "1-120",
-      "difficulty": "Orta Emek",
-      "location": "🇹🇷"
-    },
-    {
-      "name": "Alpar2 Exclusive",
-      "url": "https://alpar2.com.tr",
-      "image": "https://cdn.discordapp.com/icons/704538164542439485/a_19cb923c11d260d8b7d135491b09a3b6.gif?size=32",
-      "date": "2023-03-31T21:00:00",
-      "level": "55-120",
-      "difficulty": "Farm",
-      "location": "🇹🇷"
-    },
-    {
-      "name": "Rebel2 Vatan",
-      "url": "https://rebel2allstar.com",
-      "image": "https://cdn.discordapp.com/icons/879763445564702770/98240c6b06a0b1c660105dba23eb45ca.webp?size=32",
-      "date": "2023-03-31T21:00:00",
-      "level": "104-105",
-      "difficulty": "VS",
-      "location": "🇹🇷"
-    },
-    {
-      "name": "Narkisa2",
-      "url": "https://narkisa2.com",
-      "image": "https://cdn.discordapp.com/icons/1059303806896193671/a_c8fb2603763663298b53f4dff93b4dc8.gif?size=32",
-      "date": "2023-03-31T21:00:00",
-      "level": "104-105",
-      "difficulty": "VS",
-      "location": "🇹🇷"
-    }
-  ],
-  "currentWeek": [
-    {
       "name": "Rare2",
       "url": "https://rare2.net",
       "image": "https://cdn.discordapp.com/icons/1052388425711497306/a_b99b46385108b81746d0775e30880042.gif?size=32",
@@ -138,7 +64,7 @@
       "location": "🇹🇷"
     }
   ],
-  "nextWeek": [
+  "currentWeek": [
     {
       "name": "CixMt2",
       "url": "https://cixmt2.online",
@@ -169,7 +95,7 @@
     {
       "name": "MaxMt2",
       "url": "https://maxmt2.com",
-      "image": "https://cdn.discordapp.com/icons/1085560515163586681/70894ad57ad2a9adc2b477a7655c197b.webp?size=32",
+      "image": "https://cdn.discordapp.com/icons/1085560515163586681/a_8b9cbb43f06cf8eb86a1e18bdbf13725.gif?size=32",
       "date": "2023-04-14T21:00:00",
       "level": "1-99",
       "difficulty": "Orta Emek",
@@ -187,7 +113,7 @@
     {
       "name": "Mercure2",
       "url": "https://mercure2.net",
-      "image": "https://cdn.discordapp.com/icons/820688802221391893/fc1736ce2b64e23f82fec9d120964019.webp?size=32",
+      "image": "https://cdn.discordapp.com/icons/820688802221391893/98b3399bad4cca344477af5b00989d00.webp?size=32",
       "date": "2023-04-14T21:00:00",
       "level": "55-120",
       "difficulty": "Farm",
@@ -209,6 +135,35 @@
       "date": "2023-04-14T21:00:00",
       "level": "104-105",
       "difficulty": "VS",
+      "location": "🇹🇷"
+    }
+  ],
+  "nextWeek": [
+    {
+      "name": "Sultan2",
+      "url": "https://sultan2.com",
+      "image": "https://cdn.discordapp.com/icons/1030270558945951785/a_ce7c213f98c376bbaa09a7175df6b453.gif?size=32",
+      "date": "2023-04-21T21:00:00",
+      "level": "1-99",
+      "difficulty": "Hard Emek",
+      "location": "🇹🇷"
+    },
+    {
+      "name": "Jade2",
+      "url": "https://jade2.com.tr",
+      "image": "https://cdn.discordapp.com/avatars/1068290923554939042/40d48d9da6fa11d547770f2a6a566162.webp?size=32",
+      "date": "2023-04-21T21:00:00",
+      "level": "1-99",
+      "difficulty": "Orta Emek",
+      "location": "🇹🇷"
+    },
+    {
+      "name": "RiosMt2",
+      "url": "https://www.riosmt2.com",
+      "image": "https://cdn.discordapp.com/icons/1069719848600473620/a_832b699862dfbd8d9d8aa85661242f36.gif?size=32",
+      "date": "2023-04-21T21:00:00",
+      "level": "1-105",
+      "difficulty": "Orta Emek",
       "location": "🇹🇷"
     }
   ],
